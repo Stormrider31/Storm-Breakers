@@ -1,0 +1,22 @@
+##################### Storm Breakers V2.0 - 09/2023 #################################
+Shoreline effects implementation :
+- Addition of a Terrain field in the Ocean Controller component to activate the shoreline effects.
+Wave model updates :
+- Wave height is reduced near the shoreline to simulate breaking.
+- Breaking speed and torque are increased as the wave height is reduced to simulate shore breaking.
+- Group speed is not anymore a function of the intensity but always half the wave celerity, might impact the aspect of a calm sea.
+Water shading updates : 
+- Implementation of the ground color scattering near shoreline.
+- More accurate reflections and color of the surface. Might need to adjust the water color when updating.
+- Improved shading of the underwater water surface.
+- Particles culled underwater.
+Visual effects updates : 
+- Implementation of the breaking waves visual effects near shoreline. The waves break as their height is reduced to simulate shore breaking.
+- Modifiable light occlusion for the sea foam burst particles of the Water Interaction VFX graph.
+Audio effects updates : 
+- Implementation of the breaking waves audio effect near shoreline. Roughly sync with the visual effects.
+- Fixed bug for the breaking wave audio to make it more sync with the VFX and physics.
+Physics update : 
+- No possible uses of the job system when using shoreline effects.
+New component implementation : 
+- Water Effects to make visual and audio effects without the physics.
