@@ -1,0 +1,21 @@
+# ProBuilder 5.0.4
+# https://unity3d.com/unity/features/worldbuilding/probuilder
+# 29/11/2022 12:36:01
+
+mtllib ./triangle.mtl
+o triangle
+
+g triangle
+v 0.5 -0.5 -3.061617E-17
+v -0.5 0.5 3.061617E-17
+v -0.5 -0.5 -3.061617E-17
+
+vt 0 0
+vt 1 1
+vt 1 0
+
+vn 0 6.123234E-17 -1
+
+usemtl Lit
+f 3/3/1 2/2/1 1/1/1
+
