@@ -11,5 +11,7 @@ https://drive.google.com/file/d/1A5XbOAvHWfiMiMZtGxcHmCtJ-5Q6_i2Q/view?usp=shari
 Playable demo :
 https://the-storm-rider.itch.io/storm-breakers-shoreline
 https://the-storm-rider.itch.io/storm-breakers-demos
+https://the-storm-rider.itch.io/storm-mariner
+https://the-storm-rider.itch.io/epic-surfing
 
 This repository is under Creative Commons license, you are welcome to commit modification and improve Storm Breakers !
